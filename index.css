@@ -1,11 +1,10 @@
 div.courseContainer{
 background-color: white;
 width: 400px;
-position: absolute;
+position: fixed;
 left: 0;
 right: 0;
-
-margin-top: 450px;
+top: 215px;
 }
 
 #courseList{
@@ -17,4 +16,15 @@ margin-top: 450px;
 #coursesTitle{
   margin-left: 10px;
   font-size: 22px;
+}
+
+#footer{
+  background-color: black;
+  position: fixed;
+  color: white;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
 }
