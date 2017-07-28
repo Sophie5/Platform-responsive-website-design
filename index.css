@@ -4,7 +4,7 @@ width: 400px;
 position: fixed;
 left: 0;
 right: 0;
-top: 215px;
+margin-top: 300px;
 }
 
 #courseList{
@@ -27,4 +27,29 @@ top: 215px;
   right: 0;
   display: flex;
   justify-content: center;
+  padding-bottom: 10px;
+}
+
+#header{
+  background-color: rgb(3, 47, 168);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 14px;
+  padding-left: 60px;
+  float: left;
+}
+
+
+
+#menuButton{
+  background-color: Transparent;
+  border: none;
+  color: white;
+  outline: none;
+  top: 30px;
+  right: 40px;
+  position: absolute;
 }
