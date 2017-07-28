@@ -151,5 +151,6 @@ this.x ="";
 Courses.prototype.listOfCourses = function(){
     for(i=0;i<5;i++){
        x = this.allCourses[i];
+       console.log(x.Title + x.ShortDescription + x.ImageLink)
        return x.Title + x.ShortDescription + x.ImageLink};
 };
