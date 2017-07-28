@@ -152,7 +152,6 @@ this.courseInformation ="";
 Courses.prototype.listOfCourses = function(){
     for(i=0; i<5;i++){
       this.eachCourse = this.allCourses[i]
-      console.log(this.eachCourse)
        this.courseInformation += this.eachCourse.Title + this.eachCourse.ShortDescription + this.eachCourse.ImageLink
 
     }

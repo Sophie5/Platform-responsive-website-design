@@ -1,7 +1,20 @@
 div.courseContainer{
 background-color: white;
 width: 400px;
-margin-left: auto;
-margin-right: auto;
+position: absolute;
+left: 0;
+right: 0;
+
 margin-top: 450px;
+}
+
+#courseList{
+ position: relative;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+
+#coursesTitle{
+  margin-left: 10px;
+  font-size: 22px;
 }
