@@ -146,11 +146,15 @@ this.allCourses = [
         "ImageLink": "image1.jpg"
     }
 ];
-this.x ="";
+this.courseInformation ="";
+
 }
 Courses.prototype.listOfCourses = function(){
-    for(i=0;i<5;i++){
-       x = this.allCourses[i];
-       console.log(x.Title + x.ShortDescription + x.ImageLink)
-       return x.Title + x.ShortDescription + x.ImageLink};
+    for(i=0; i<5;i++){
+      this.eachCourse = this.allCourses[i]
+      console.log(this.eachCourse)
+       this.courseInformation += this.eachCourse.Title + this.eachCourse.ShortDescription + this.eachCourse.ImageLink
+
+    }
+    this.courseInformation
 };
