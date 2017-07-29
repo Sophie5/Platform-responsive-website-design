@@ -1,10 +1,12 @@
 div.courseContainer{
 background-color: white;
 width: 400px;
-position: fixed;
+position: relative;
 left: 0;
 right: 0;
 margin-top: 300px;
+white-space:normal;
+overflow: hidden;
 }
 
 #courseList{
@@ -42,8 +44,6 @@ margin-top: 300px;
   float: left;
 }
 
-
-
 #menuButton{
   background-color: Transparent;
   border: none;
@@ -52,4 +52,22 @@ margin-top: 300px;
   top: 30px;
   right: 40px;
   position: absolute;
+}
+
+img{
+  position: relative;
+  width: 26em;
+  right: 0.5em;
+  top: 61px;
+  height: 19em;
+}
+
+#text{
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right:0;
+bottom: 46em;
+color: white;
+font-size: 14px;
 }
