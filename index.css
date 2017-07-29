@@ -8,16 +8,18 @@ div.courseContainer{
 
 }
 
-#courseList{
+#courseInformation{
   position: relative;
-  margin-left: 10px;
-  margin-right: 10px;
+  padding-left: 45px;
+
   height: 50px;
+
+
 }
 
 #coursesTitle{
-  margin-left: 10px;
-  font-size: 22px;
+  margin-left: 44px;
+  font-size: 24px;
 }
 
 #footer{
@@ -54,9 +56,9 @@ div.courseContainer{
   position: absolute;
 }
 
-img{
+#mountainsImage{
   position: relative;
-  width: 28em;
+  width: 29em;
   right: 0.5em;
   top: 61px;
   height: 19em;

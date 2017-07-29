@@ -147,22 +147,14 @@ function Courses() {
     }
   ];
   this.courseInformation ="";
-  this.courseImage="";
 
 }
 Courses.prototype.listOfCourses = function(){
   for(i=0; i<5;i++){
     this.eachCourse = this.allCourses[i]
-    this.courseInformation += this.eachCourse.Title + this.eachCourse.ShortDescription
+    this.courseInformation += "<p><img src =images/" + ""+this.eachCourse.ImageLink + "" + " style=width:350px;display:inline;></img></p>" + "<b>" + this.eachCourse.Title + "</b>" + "<br>" + this.eachCourse.ShortDescription
   }
   this.courseInformation
+  console.log(this.courseInformation)
 
-};
-
-Courses.prototype.courseImages = function(){
-  for(i=0; i<5;i++){
-    this.eachCourse = this.allCourses[i]
-     this.courseImage += "<img src =images/" + ""+this.eachCourse.ImageLink + "" + "></img>"
-  }
-  this.courseImage
 };
