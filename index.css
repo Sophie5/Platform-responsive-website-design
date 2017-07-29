@@ -14,10 +14,16 @@ div.courseContainer{
 }
 
 #textLogo{
-  position: relative;
+position: relative;
 top: -1.015em;
 left: 5em;
 opacity: 0.7;
+}
+
+#imageLogo{
+  position: relative;
+  top: -6.5em;
+  height: 3.5em;
 }
 
 #courseInformation{
@@ -63,8 +69,8 @@ opacity: 0.7;
   border: none;
   color: white;
   outline: none;
-  top: 30px;
-  right: 40px;
+  top: 27.5px;
+  right: 15px;
   position: absolute;
 }
 

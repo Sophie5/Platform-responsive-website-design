@@ -155,6 +155,5 @@ Courses.prototype.listOfCourses = function(){
     this.courseInformation += "<p><img src =images/" + ""+this.eachCourse.ImageLink + "" + " style=width:350px;display:inline;></img></p>" + "<b>" + this.eachCourse.Title + "</b>" + "<br>" + this.eachCourse.ShortDescription
   }
   this.courseInformation
-  console.log(this.courseInformation)
 
 };
