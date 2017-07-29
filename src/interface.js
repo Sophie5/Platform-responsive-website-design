@@ -1,10 +1,9 @@
 $(document).ready(function() {
 var courses = new Courses();
 
-$("#courseList").html(function(){
+$("#courseInformation").html(function(){
   courses.listOfCourses();
-  $("#courseList").html(courses.courseInformation)
+  $("#courseInformation").html(courses.courseInformation)
 });
-
 
 });
