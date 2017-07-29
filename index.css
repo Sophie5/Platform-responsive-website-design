@@ -7,7 +7,18 @@ div.courseContainer{
   right: 0;
 }
 
+#your{
+  position: relative;
+  top: 0.8em;
+  left: 2em;
+}
 
+#textLogo{
+  position: relative;
+top: -1.015em;
+left: 5em;
+opacity: 0.7;
+}
 
 #courseInformation{
   position: relative;
@@ -73,7 +84,7 @@ div.courseContainer{
 #text{
   position: absolute;
   text-align: center;
-  left: 4em;
+  left: 5em;
   right:0;
   bottom: 48em;
   color: white;
@@ -89,7 +100,7 @@ div.courseContainer{
   font-weight: bold;
   height: 30px;
   width: 210px;
-  left: 118px;
+  left: 127px;
   border-radius: 4px;
   font-size: 16px;
   outline: none;
