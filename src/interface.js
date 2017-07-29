@@ -6,4 +6,9 @@ $("#courseInformation").html(function(){
   $("#courseInformation").html(courses.courseInformation)
 });
 
+$("#courseImages").html(function(){
+  courses.courseImages();
+  $("#courseImages").html(courses.courseImage)
+});
+
 });
