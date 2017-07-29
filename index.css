@@ -28,7 +28,7 @@ div.courseContainer{
   color: white;
   width: 30em;
   right: 0.5em;
-  top: 140em;
+  top: 127em;
   display: flex;
   justify-content: center;
   padding-bottom: 10px;
@@ -72,6 +72,7 @@ div.courseContainer{
   bottom: 48em;
   color: white;
   font-size: 14px;
+  top: 5em;
 }
 
 #callToAction{
@@ -115,9 +116,7 @@ li+li{
      position: relative;
      right:48px;
      width: 29em;
-     bottom: 5px;
-    text-align: left;
-
+     top: 125em;
    }
 
    #specialLink{
