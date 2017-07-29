@@ -1,18 +1,18 @@
 div.courseContainer{
-background-color: white;
-width: 400px;
-position: relative;
-left: 0;
-right: 0;
-margin-top: 300px;
-white-space:normal;
-overflow: hidden;
+  background-color: white;
+  width: 400px;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin-top: 300px;
+  white-space:normal;
+  overflow: hidden;
 }
 
 #courseList{
- position: relative;
- margin-left: 10px;
- margin-right: 10px;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #coursesTitle{
@@ -56,7 +56,7 @@ overflow: hidden;
 
 img{
   position: relative;
-  width: 26em;
+  width: 28em;
   right: 0.5em;
   top: 61px;
   height: 19em;
@@ -65,9 +65,23 @@ img{
 #text{
   position: absolute;
   text-align: center;
-  left: 0;
+  left: 4em;
   right:0;
-bottom: 46em;
-color: white;
-font-size: 14px;
+  bottom: 48em;
+  color: white;
+  font-size: 14px;
+}
+
+#callToAction{
+  position: absolute;
+  background-color: white;
+  border: white;
+  color: #094ebc;
+  font-weight: bold;
+  height: 30px;
+  width: 210px;
+  left: 118px;
+  border-radius: 4px;
+  font-size: 16px;
+
 }
