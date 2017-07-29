@@ -33,7 +33,7 @@ div.courseContainer{
 }
 
 #header{
-  background-color: rgb(3, 47, 168);
+  background-color: #043e9b;
   color: white;
   position: fixed;
   top: 0;
@@ -76,12 +76,25 @@ img{
   position: absolute;
   background-color: white;
   border: white;
-  color: #094ebc;
+  color: #043e9b;
   font-weight: bold;
   height: 30px;
   width: 210px;
   left: 118px;
   border-radius: 4px;
   font-size: 16px;
+  outline: none;
+}
 
+#loadMore{
+  position: absolute;
+  background-color: #043e9b;
+  border: #043e9b;
+  color: white;
+  height: 30px;
+  width: 150px;
+  left: 140px;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
 }
