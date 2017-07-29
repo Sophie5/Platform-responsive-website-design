@@ -58,7 +58,7 @@ div.courseContainer{
 
 #mountainsImage{
   position: relative;
-  width: 29em;
+  width: 30em;
   right: 0.5em;
   top: 61px;
   height: 19em;
@@ -99,6 +99,7 @@ div.courseContainer{
   border-radius: 4px;
   font-size: 16px;
   outline: none;
+  top: 148em;
 }
 
 li+li{
