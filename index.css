@@ -4,7 +4,7 @@ div.courseContainer{
   position: relative;
   left: 0;
   right: 0;
-  margin-top: 300px;
+  margin-top: 200px;
   white-space:normal;
   overflow: hidden;
 }
@@ -98,3 +98,25 @@ img{
   font-size: 16px;
   outline: none;
 }
+
+li+li{
+  position: relative;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-top: 1px solid #e3e9ef;
+  border-spacing: 200px;
+
+  }
+   #links{
+     list-style-type: none;
+     position: relative;
+     right:48px;
+     width: 29em;
+     bottom: 5px;
+    text-align: left;
+
+   }
+
+   #specialLink{
+     background-color:#e3e9ef;
+   }
