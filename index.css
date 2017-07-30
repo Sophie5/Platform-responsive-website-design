@@ -175,10 +175,10 @@ overflow: hidden;
   }
   #coursesTitle{
     position: relative;
-    left: -34%;
-    font-size: 24px;
-    top: -4.5em;
+    left: -3%;
+    font-size: 25px;
     overflow: hidden;
+    color: black;
   }
 
 
@@ -197,10 +197,11 @@ overflow: hidden;
     display:none;
   }
   body{
-    background-color: #c5d8f7;
+    background-color: #c4d4ed;
   }
 
   #header{
+    position: relative;
     width: 18em;
     left: 20%;
     top: -29em;
@@ -226,7 +227,7 @@ overflow: hidden;
 
   button.desktopFirstHeaderButton{
     position: absolute;
-    left: 59%;
+    right: 400px;
     top: 2.1em;
     background-color: #043e9b;
     color: white;
@@ -239,7 +240,7 @@ overflow: hidden;
 
   button.desktopSecondHeaderButton{
     position: absolute;
-    left: 68%;
+    right:  300px;
     top: 2.1em;
     background-color: #043e9b;
     color: white;
@@ -251,7 +252,7 @@ overflow: hidden;
 
   button.desktopThirdHeaderButton{
     position: absolute;
-    left: 78%;
+    right:  200px;
     top: 2.1em;
     background-color: #043e9b;
     color: white;
@@ -259,7 +260,6 @@ overflow: hidden;
     border-radius: 3px;
     padding-top: 2px;
     padding-bottom: 2px;
-
 
   }
 
@@ -269,23 +269,26 @@ overflow: hidden;
 
   #courseInformation{
     position: relative;
-    left: 29.5%;
-    top: -18em;
-    height: 50px;
+    left: 38%;
+    width:60%;
+    top: -10em;
+    height: 20%;
 
   }
   #loadMore{
-    position: absolute;
+    position: relative;
     background-color: #043e9b;
     border: #043e9b;
     color: white;
-    height: 30px;
-    width: 150px;
-    left: 29.5%;
+    height: 2%;
+    width: 20%;
+    left: 38%;
     border-radius: 4px;
     font-size: 16px;
     outline: none;
-    top: 118em;
+    top: 90em;
+    bottom: 0;
+    overflow:inherit;
   }
 
   #linksBackground{
@@ -298,20 +301,28 @@ overflow: hidden;
     overflow: hidden;
   }
 
-  #coursesBackground{
+    div.courseContainer{
     position: absolute;
     width:47%;
-    height: 100em;
-    left: 11%;
+    height: 210%;
+    left: -9%;
     top: 25em;
     background-color: white;
-    overflow: hidden;
+    overflow: auto;
   }
 
+
   #footer{
+    background-color: black;
     position: relative;
-    top: 70em;
-    bottom:0;
+    color: white;
+    width: 100%;
+    top: 122em;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-right:0 ;
+    padding-left: 0;
     overflow: hidden;
   }
 }
