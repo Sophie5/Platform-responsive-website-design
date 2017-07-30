@@ -7,22 +7,22 @@ div.courseContainer{
 
 }
 
-#your{
+#textYour{
   position: relative;
-  top: 0.8em;
+  top: 0.4em;
   left: 2em;
 }
 
 #textLogo{
   position: relative;
-  top: -1.015em;
+  top: -1.4em;
   left: 5em;
   opacity: 0.7;
 }
 
 #imageLogo{
   position: relative;
-  top: -6.5em;
+  top: -7.2em;
   height: 3.5em;
 }
 
@@ -60,7 +60,7 @@ div.courseContainer{
   height: 5em;
   margin: 0;
   padding: 0px;
-  top: -1.5em;
+  bottom: 25em;
   overflow: hidden;
 
 }
@@ -71,7 +71,7 @@ div.courseContainer{
   border: none;
   color: white;
   outline: none;
-  top: 27.5px;
+  top: 35px;
   right: 15px;
   position: absolute;
 }
