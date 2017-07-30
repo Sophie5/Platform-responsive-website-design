@@ -1,6 +1,5 @@
 
 div.courseContainer{
-  background-color: white;
   width: 400px;
   position: relative;
   left: 0;
@@ -14,10 +13,10 @@ div.courseContainer{
 }
 
 #textLogo{
-position: relative;
-top: -1.015em;
-left: 5em;
-opacity: 0.7;
+  position: relative;
+  top: -1.015em;
+  left: 5em;
+  opacity: 0.7;
 }
 
 #imageLogo{
@@ -78,21 +77,20 @@ opacity: 0.7;
 
 #mountainsImage{
   position: relative;
- background-image: url("images/mountains.jpg");
- background-repeat: no-repeat;
- background-size:cover;
- width: 100%;
- top: 20em;
- height: 20em;
- top: 3em;
- padding-right:0 ;
- padding-left: 0;
-   overflow: hidden;
+  background-image: url("images/mountains.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  width: 100%;
+  top: 20em;
+  height: 20em;
+  top: 3em;
+  overflow: hidden;
 }
 
 #text{
   position: absolute;
   text-align: center;
+  align:center;
   left: 5em;
   right:0;
   bottom: 48em;
@@ -114,6 +112,7 @@ opacity: 0.7;
   font-size: 16px;
   outline: none;
   top: 20em;
+
 }
 
 #loadMore{
@@ -136,42 +135,51 @@ li+li{
   padding-bottom: 4px;
   border-top: 1px solid #e3e9ef;
   border-spacing: 200px;
+
+
+}
+#links{
+  list-style-type: none;
+  position: relative;
+  right:48px;
+  width: 29em;
+  top: 120em;
+  margin-left: 0.5em;
+
+}
+
+#linksBackground{
+  position: absolute;
+  width:19.95%;
+  height: 22em;
+  left: 63.2%;
+  top: 25em;
   background-color: white;
+}
 
-  }
-   #links{
-     list-style-type: none;
-     position: relative;
-     right:48px;
-     width: 29em;
-     top: 120em;
-     margin-left: 0.5em;
-     background-color: white;
-   }
+#specialLink{
+  background-color:#e3e9ef;
+}
+#skiingImage{
+  width: 350px;
+  display: inline;
+}
 
-   #specialLink{
-     background-color:#e3e9ef;
-   }
-   #skiingImage{
-     width: 350px;
-     display: inline;
-   }
+#desktopHeader{
+  position: relative;
+  background-color: white;
+  width: 100%;
+  height: 3em;
+  margin: 0;
+  padding:0;
+  top: -20em;
+  overflow: hidden;
+  display: none;
+  padding-bottom: 10px;
 
-   #desktopHeader{
-     position: relative;
-     background-color: white;
-     width: 100%;
-     height: 3em;
-     margin: 0;
-     padding-left: 50%;
-     padding-bottom: 0.5em;
-     top: -20em;
-     overflow: hidden;
-     display: none;
+}
 
-   }
-
-button.desktopHeaderButton{
+button.desktopFirstHeaderButton{
   position: absolute;
   left: 70em;
   top: 2.1em;
@@ -181,6 +189,7 @@ button.desktopHeaderButton{
   border-radius: 3px;
   padding-top: 2px;
   padding-bottom: 2px;
+  overflow: hidden;
 }
 
 button.desktopSecondHeaderButton{
@@ -193,40 +202,59 @@ button.desktopSecondHeaderButton{
   border-radius: 3px;
   padding-top: 2px;
   padding-bottom: 2px;
+  overflow: hidden;
 }
-   @media(min-width:500px){
-     div.courseContainer{
-       margin-left:20%;
-       width:28%;
-     }
-     #skiingImage{
-       width:20em;
 
-     }
- #links{
-   left:60%;
-   width:20%;
-   top: -6.5em;
- }
+button.desktopThirdHeaderButton{
+  position: absolute;
+  left: 84em;
+  top: 2.1em;
+  background-color: #043e9b;
+  color: white;
+  border: #043e9b;
+  border-radius: 3px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  overflow: hidden;
+}
+@media(min-width:500px){
+  div.courseContainer{
+    margin-left:20%;
+    width:28%;
+  }
+  #skiingImage{
+    width:20em;
 
- #menuButton{
-   display:none;
- }
- body{
-  background-color: #c5d8f7;
-   }
+  }
+  #links{
+    left:60%;
+    width:20%;
+    top: -14em;
 
-   #header{
-     width: 16%;
-     left: 20%;
-     top: -29em;
-     padding-bottom: 2em;
-     padding-top: 1em;
-     border-radius: 4px;
+  }
 
-   }
+  #menuButton{
+    display:none;
+  }
+  body{
+    background-color: #c5d8f7;
+  }
 
-   #desktopHeader{
-     display: inline-block;
-   }
- }
+  #header{
+    width: 16%;
+    left: 20%;
+    top: -29em;
+    padding-bottom: 2em;
+    padding-top: 1em;
+    border-radius: 4px;
+
+  }
+
+  #desktopHeader{
+    display: inline-block;
+  }
+
+  #callToAction{
+    left: 45%;
+  }
+}
