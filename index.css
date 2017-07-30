@@ -41,14 +41,14 @@ opacity: 0.7;
   background-color: black;
   position: relative;
   color: white;
-  width: 29em;
-  right: 0.5em;
+  width: 100%;
   top: 122em;
   display: flex;
   justify-content: center;
   padding-bottom: 10px;
   padding-right:0 ;
   padding-left: 0;
+  overflow: hidden;
 }
 #header{
   background-color: #043e9b;
