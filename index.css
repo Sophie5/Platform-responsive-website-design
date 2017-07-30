@@ -4,6 +4,7 @@ div.courseContainer{
   position: relative;
   left: 0;
   right: 0;
+
 }
 
 #your{
@@ -148,83 +149,37 @@ li+li{
 
 }
 
-#linksBackground{
-  position: absolute;
-  width:19.95%;
-  height: 22em;
-  left: 63.2%;
-  top: 25em;
-  background-color: white;
-}
 
 #specialLink{
   background-color:#e3e9ef;
 }
 #skiingImage{
   width: 350px;
-  display: inline;
 }
 
-#desktopHeader{
-  position: relative;
-  background-color: white;
-  width: 100%;
-  height: 3em;
-  margin: 0;
-  padding:0;
-  top: -20em;
-  overflow: hidden;
-  display: none;
-  padding-bottom: 10px;
 
-}
 
-button.desktopFirstHeaderButton{
-  position: absolute;
-  left: 70em;
-  top: 2.1em;
-  background-color: #043e9b;
-  color: white;
-  border: #043e9b;
-  border-radius: 3px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  overflow: hidden;
-}
 
-button.desktopSecondHeaderButton{
-  position: absolute;
-  left: 77em;
-  top: 2.1em;
-  background-color: #043e9b;
-  color: white;
-  border: #043e9b;
-  border-radius: 3px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  overflow: hidden;
-}
 
-button.desktopThirdHeaderButton{
-  position: absolute;
-  left: 84em;
-  top: 2.1em;
-  background-color: #043e9b;
-  color: white;
-  border: #043e9b;
-  border-radius: 3px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  overflow: hidden;
-}
+
 @media(min-width:500px){
+
   div.courseContainer{
     margin-left:20%;
     width:28%;
   }
   #skiingImage{
-    width:20em;
-
+   position:relative;
+   width: 15em;
+   height: 10em;
+   left: -17em;
+   top: 11.5em;
+  }
+  #coursesTitle{
+    position: relative;
+    left: -9em;
+    font-size: 24px;
+    top: -4.5em;
   }
   #links{
     left:60%;
@@ -251,10 +206,102 @@ button.desktopThirdHeaderButton{
   }
 
   #desktopHeader{
+
+      position: relative;
+      background-color: white;
+      width: 100%;
+      height: 3em;
+      margin: 0;
+      padding:0;
+      top: -20em;
+      overflow: hidden;
+      padding-bottom: 10px;
     display: inline-block;
+  }
+
+  button.desktopFirstHeaderButton{
+    position: absolute;
+    left: 70em;
+    top: 2.1em;
+    background-color: #043e9b;
+    color: white;
+    border: #043e9b;
+    border-radius: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    overflow: hidden;
+  }
+
+  button.desktopSecondHeaderButton{
+    position: absolute;
+    left: 77em;
+    top: 2.1em;
+    background-color: #043e9b;
+    color: white;
+    border: #043e9b;
+    border-radius: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    overflow: hidden;
+  }
+
+  button.desktopThirdHeaderButton{
+    position: absolute;
+    left: 84em;
+    top: 2.1em;
+    background-color: #043e9b;
+    color: white;
+    border: #043e9b;
+    border-radius: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    overflow: hidden;
   }
 
   #callToAction{
     left: 45%;
+  }
+
+  #courseInformation{
+    position: relative;
+    left: 50px;
+    top: -18em;
+    height: 50px;
+  }
+  #loadMore{
+    position: absolute;
+    background-color: #043e9b;
+    border: #043e9b;
+    color: white;
+    height: 30px;
+    width: 150px;
+    left: 25%;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    top: 118em;
+  }
+
+  #linksBackground{
+    position: absolute;
+    width:19.95%;
+    height: 22em;
+    left: 63.2%;
+    top: 25em;
+    background-color: white;
+  }
+
+  #coursesBackground{
+    position: absolute;
+    width:47%;
+    height: 100em;
+    left: 6.5%;
+    top: 25em;
+    background-color: white;
+  }
+
+  #footer{
+    position: relative;
+    top: 70em;
   }
 }

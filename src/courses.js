@@ -152,7 +152,7 @@ function Courses() {
 Courses.prototype.listOfCourses = function(){
   for(i=0; i<5;i++){
     this.eachCourse = this.allCourses[i]
-    this.courseInformation += "<p><img id=skiingImage src =images/" + ""+this.eachCourse.ImageLink + "" + " ></img></p>" + "<b>" + this.eachCourse.Title + "</b>" + "<br>" + this.eachCourse.ShortDescription
+    this.courseInformation += "<p><img id=skiingImage src =images/" + ""+this.eachCourse.ImageLink + "" + " ></img></p>"  + "<b>" + this.eachCourse.Title + "</b>" + "<br>" + this.eachCourse.ShortDescription
   }
   this.courseInformation
 
