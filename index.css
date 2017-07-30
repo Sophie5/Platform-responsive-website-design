@@ -158,10 +158,6 @@ li+li{
 }
 
 
-
-
-
-
 @media(min-width:500px){
 
   div.courseContainer{
@@ -173,16 +169,17 @@ li+li{
    width: 15em;
    height: 10em;
    left: -17em;
-   top: 11.5em;
+   top: 11em;
   }
   #coursesTitle{
     position: relative;
-    left: -9em;
+    left: -34%;
     font-size: 24px;
     top: -4.5em;
   }
   #links{
-    left:60%;
+    position: relative;
+    left:56.85%;
     width:20%;
     top: -14em;
 
@@ -264,7 +261,7 @@ li+li{
 
   #courseInformation{
     position: relative;
-    left: 50px;
+    left: 29.5%;
     top: -18em;
     height: 50px;
   }
@@ -275,7 +272,7 @@ li+li{
     color: white;
     height: 30px;
     width: 150px;
-    left: 25%;
+    left: 29.5%;
     border-radius: 4px;
     font-size: 16px;
     outline: none;
@@ -284,9 +281,9 @@ li+li{
 
   #linksBackground{
     position: absolute;
-    width:19.95%;
+    width:19.98%;
     height: 22em;
-    left: 63.2%;
+    left: 60%;
     top: 25em;
     background-color: white;
   }
@@ -295,7 +292,7 @@ li+li{
     position: absolute;
     width:47%;
     height: 100em;
-    left: 6.5%;
+    left: 11%;
     top: 25em;
     background-color: white;
   }
