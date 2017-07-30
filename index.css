@@ -80,12 +80,14 @@ opacity: 0.7;
   background-image: url("images/mountains.jpg");
   background-repeat: no-repeat;
   background-size:cover;
-  width: 29.05em;
+  width: 100%;
+  top: 20em;
   height: 20em;
   top: -1.35em;
-  right: 0.5em;
+
   padding-right:0 ;
   padding-left: 0;
+    overflow: hidden;
 }
 
 #text{
