@@ -136,16 +136,17 @@ li+li{
   padding-bottom: 4px;
   border-top: 1px solid #e3e9ef;
   border-spacing: 200px;
-
+overflow: hidden;
 
 }
 #links{
   list-style-type: none;
   position: relative;
   right:48px;
-  width: 29em;
+  width: 100%;
   top: 120em;
   margin-left: 0.5em;
+  overflow: hidden;
 
 }
 
